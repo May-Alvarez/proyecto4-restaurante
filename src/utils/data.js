@@ -1,6 +1,6 @@
 import I1 from "../img/postres/i1.png";
 import F1 from "../img/frutas/f1.png";
-import C1 from "../img/carne/c3.png";
+import C1 from "../img/pollo/c3.png";
 import Fi1 from "../img/pescado/fi1.png";
 
 export const heroData = [
