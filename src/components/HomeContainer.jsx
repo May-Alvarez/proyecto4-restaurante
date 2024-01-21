@@ -52,7 +52,7 @@ const HomeContainer = () => {
                             src={n.imageSrc}
                             className="w-20 lg:w-40 -mt-10 lg:-mt-20"
                             alt={n.name} />
-                            <p className="text-base lg:text-xl font-semibold text-textColor mt-2 lg:mt-4">
+                            <p className="text-base lg:text-xl lg:text-center font-semibold text-textColor mt-2 lg:mt-4">
                                 {n.name}
                             </p>
 

@@ -32,4 +32,42 @@ export const heroData = [
         price : "150 MXN",
         imageSrc : Fi1
     },
+];
+
+export const categories =[
+    {
+        id: 1,
+        name: "Pollo",
+        urlParaName: "pollo",
+    },
+    {
+        id: 2,
+        name: "Curry",
+        urlParaName: "curry",
+    },
+    {
+        id: 3,
+        name: "Arroz",
+        urlParaName: "arroz",
+    },
+    {
+        id: 4,
+        name: "Pescado",
+        urlParaName: "pescado",
+    },
+    {
+        id: 5,
+        name: "Frutas",
+        urlParaName: "frutas",
+    },
+    {
+        id: 6,
+        name: "Postres",
+        urlParaName: "postres",
+    },
+    {
+        id: 7,
+        name: "Bebidas",
+        urlParaName: "bebidas",
+    },
 ]

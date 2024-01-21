@@ -95,7 +95,8 @@ const Header = () => {
                                 {user && user.email === "candy.chabe05@gmail.com" &&(
                                     <Link to={"/createItem"}>
                                         <p className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100
-                                        transition-all duration-100 ease-in-out text-textColor text-base">
+                                        transition-all duration-100 ease-in-out text-textColor text-base"
+                                        onClick={() => setIsMenu(false)}>
                                             Agregar <MdAdd />
                                         </p>
                                     </Link>
@@ -143,8 +144,9 @@ const Header = () => {
                             {user && user.email === "candy.chabe05@gmail.com" &&(
                                 <Link to={"/createItem"}>
                                     <p className="px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-100
-                                    transition-all duration-100 ease-in-out text-textColor text-base">
-                                        Agregar <MdAdd />
+                                    transition-all duration-100 ease-in-out text-textColor text-base"
+                                    onClick={() => setIsMenu(false)}>
+                                        Agregar<MdAdd />
                                     </p>
                                 </Link>
                             )}
