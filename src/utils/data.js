@@ -70,4 +70,5 @@ export const categories =[
         name: "Bebidas",
         urlParaName: "bebidas",
     },
-]
+];
+
