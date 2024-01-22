@@ -38,13 +38,13 @@ const CartItem = ({ item, setFlag, flag }) => {
                 setQty(qty - 1);
                 cartItems.map((item) => {
                     if (item.id === id) {
-                    item.qty -= 1;
-                    setFlag(flag + 1);
-                }
-            });
-            cartDispatch();
+                        item.qty -= 1;
+                        setFlag(flag + 1);
+                    }
+                });
+                cartDispatch();
+            }
         }
-    }
     };
 
     useEffect(() => {
@@ -53,11 +53,11 @@ const CartItem = ({ item, setFlag, flag }) => {
 
     return (
         <div
-        className="w-full p-1 px-2 rounded-lg bg-cartItem flex items-center gap-2">
+            className="w-full p-1 px-2 rounded-lg bg-cartItem flex items-center gap-2">
             <img
-            src={item?.imageURL}
-            alt={item?.title}
-            className="w-20 h-20 max-w-[60px] rounded-full object-contain"
+                src={item?.imageURL}
+                alt={item?.title}
+                className="w-20 h-20 max-w-[60px] rounded-full object-contain"
             />
 
             {/* Nombre - Seccion */}
@@ -66,15 +66,15 @@ const CartItem = ({ item, setFlag, flag }) => {
                     {item?.title}
                 </p>
                 <p className="text-sm block text-gray-300 font-semibold">
-                    $ {parseFloat(item?.price ) * qty} MXN
+                    $ {parseFloat(item?.price) * qty} MXN
                 </p>
             </div>
 
             {/* Boton - Seccion */}
             <div className="group flex items-center gap-2 ml-auto cursor-pointer">
                 <motion.div
-                whileTap={{ scale: 0.75}}
-                onClick={() => updateQty("remover", item?.id)}>
+                    whileTap={{ scale: 0.75 }}
+                    onClick={() => updateQty("remover", item?.id)}>
                     <BiMinus className="text-gray-50" />
                 </motion.div>
 
@@ -84,8 +84,8 @@ const CartItem = ({ item, setFlag, flag }) => {
                 </p>
 
                 <motion.div
-                whileTap={{ scale: 0.75}}
-                onClick={() => updateQty("add", item?.id)}>
+                    whileTap={{ scale: 0.75 }}
+                    onClick={() => updateQty("add", item?.id)}>
                     <BiPlus className="text-gray-50" />
                 </motion.div>
             </div>
