@@ -16,3 +16,19 @@ export const getAllFoodItems = async () => {
 
     return items.docs.map((doc) => doc.data());
 };
+
+// Guardar nuevo Item
+export const saverReserve = async(data) => {
+    await setDoc(doc(firestore, "reserveItems", `${Date.now()}`), data, {
+        merge: true,
+    });
+};
+
+//Mostrar todos los Items
+export const getAllReserveItems = async () => {
+    const items = await getDocs(
+        query(collection(firestore, "reserveItems"), orderBy("id", "desc"))
+    );
+
+    return items.docs.map((doc) => doc.data());
+};
