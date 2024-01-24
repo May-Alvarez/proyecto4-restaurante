@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyecto4-restaurante/static/css/main.06bc836d.css",
-    "main.js": "/proyecto4-restaurante/static/js/main.30758cff.js",
+    "main.css": "/proyecto4-restaurante/static/css/main.61961cee.css",
+    "main.js": "/proyecto4-restaurante/static/js/main.689b00a9.js",
     "static/media/c3.png": "/proyecto4-restaurante/static/media/c3.55f83414f33f66456b35.png",
     "static/media/fi1.png": "/proyecto4-restaurante/static/media/fi1.3f43e51b6058550d1f44.png",
     "static/media/logo.png": "/proyecto4-restaurante/static/media/logo.0f99324454e3c3ccba98.png",
@@ -9,15 +9,16 @@
     "static/media/i1.png": "/proyecto4-restaurante/static/media/i1.3d9b129d2c5432c6f1fb.png",
     "static/media/heroBg.png": "/proyecto4-restaurante/static/media/heroBg.c43c4862422e70d88698.png",
     "static/media/delivery.png": "/proyecto4-restaurante/static/media/delivery.bf9130a0962fbe091abc.png",
+    "static/media/s1.jpeg": "/proyecto4-restaurante/static/media/s1.aad862135a6f55136148.jpeg",
     "static/media/avatar.png": "/proyecto4-restaurante/static/media/avatar.68cdc4513e601d28a382.png",
     "static/media/emptyCart.svg": "/proyecto4-restaurante/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
     "static/media/NotFound.svg": "/proyecto4-restaurante/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
     "index.html": "/proyecto4-restaurante/index.html",
-    "main.06bc836d.css.map": "/proyecto4-restaurante/static/css/main.06bc836d.css.map",
-    "main.30758cff.js.map": "/proyecto4-restaurante/static/js/main.30758cff.js.map"
+    "main.61961cee.css.map": "/proyecto4-restaurante/static/css/main.61961cee.css.map",
+    "main.689b00a9.js.map": "/proyecto4-restaurante/static/js/main.689b00a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.06bc836d.css",
-    "static/js/main.30758cff.js"
+    "static/css/main.61961cee.css",
+    "static/js/main.689b00a9.js"
   ]
 }
