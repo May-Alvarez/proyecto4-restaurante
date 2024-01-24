@@ -79,7 +79,7 @@ function ReserveContainer() {
     };
 
     return (
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full" id="reserve">
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full py-2" id="reserve">
             <div className="py-2 flex-1 flex flex-col items-start justify-start gap-6 ">
                 {fields && (
                     <motion.p
@@ -227,13 +227,6 @@ function ReserveContainer() {
             </div>
 
             <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
-                <p className="text-2xl font-semibold capitalize text-headingColor relative
-                    before:absolute before:rounded-lg before:content before:w-32 before:h-1 before:-bottom-2
-                    before:left-0 before:bg-gradient-to-tr from-orange-400 to-orange-600 transition-all
-                    ease-in-out duration-100">
-                    Reserva con Nosotros
-                </p>
-
 
                 <p className="text-base text-textColor text-center md:text-left md:-[80%]">
                     A partir de tu contacto, nos comunicaremos contigo para revisar fechas y disponibilidad de horarios.
